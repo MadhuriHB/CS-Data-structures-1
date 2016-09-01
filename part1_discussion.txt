@@ -1,0 +1,96 @@
+1. I think, the search algorithm we use, will determine the workload for finding if there is elephant in a box of animal crackers.
+        if we are searching each cracker, workload is more. Complexity will be O(n)
+        if we use, divide and conquer approach, workload is less. Complexity will be O(log n)
+
+
+2. Runtime
+
+O(1)
+O(log n),
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+
+
+Stacks and Queues
+
+In the following cases, would a stack or queue be a more appropriate data structure?
+3. The process of loading and unloading pallets onto a flatbed truck:
+    
+    Stack
+
+
+4. Putting bottle caps on bottles of beer as they roll down an assembly line
+    
+    Queue
+
+5. Calculating the solution to this mathematical expression: 2 + (7 * 4) - (3 / 2)
+        
+    Stack
+
+6. Describe two more situations where a queue would be an appropriate data structure.
+
+
+7. Describe two more situations where a stack would be an appropriate data structure.
+
+
+Linked Lists
+
+8. Given the linked list below, which are the nodes? What is the data for each node? Where is the head? Where is the tail? (Please be as specific as possible — exactly which parts of the diagram correspond to each part? Arrows? Boxes? Text?)
+    
+    Boxes are the nodes.
+
+    Data for each node is the first box of node with "Apple", "Berry", "Cherry" in it.
+    
+    The head is the box with text "head". It has pointer to the first node with data "Apple".
+
+    This LL has no tail. If it had, the reference for the tail would be stored near head in LL. 
+    It would keep track of the last node in the list.
+
+
+
+
+9. What’s the difference between doubly- and singly-linked lists?
+         
+         singly-linked lists-        Doubly-linked lists
+        
+        1. Go in one direction          Go in both directions
+        2. Each node has data and       Each node has data, link to next node and link to previous node
+          link to next node      
+
+        3. Takes less memory            Needs more memory
+        
+        4. Inserting and deleting       Inserting deleting complexity is O(1)
+           complexity is O(n)
+
+
+
+Why is it faster to append to a linked list if we keep track of the tail as an attribute?
+       Its faster beacuse we have a link which references to the tail node and we can directly append.
+       Without tail, we won't know which one is the last node. It would be O(n) to search each node to see if it has
+       a link to none. With tail, it is O(1).
+
+
+Given the tree above, in what order would a Breadth First Search (BFS) algorithm visit each node until finding burrito (starting at food)? Just list the order of nodes visited; no need to recreate the state of the algorithm data in your answer.
+
+        Food, Italian, Indian, Mexican, Burrito
+
+
+
+Given the tree above, in what order would a Depth First Search (DFS) algorithm visit each node until finding Chicago-style (starting at food)? Just list the order of nodes visited; no need to recreate the state of the algorithm data in your answer.
+
+
+        Food, Italian, Lasagna, Pizza, thin-crust, chicago-style
+
+
+How is a binary search tree different from other trees?
+
+    Binary tree has up to 2 children. Tree can have infinite children.
+    Binary tree is ordered. Trees are not ordered. 
+
+
+
+
+
+
